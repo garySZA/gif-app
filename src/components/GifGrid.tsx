@@ -1,4 +1,5 @@
-import { GifGridProps } from "../types/componentTypes"
+import React from "react";
+import { GifGridProps } from "../types/componentTypes";
 import { GifItem } from "./GifItem";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 

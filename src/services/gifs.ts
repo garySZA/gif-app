@@ -1,10 +1,11 @@
 import { Gif } from "../types/gif";
 import { Image } from "../types/image";
 
-import config from '../config/variables';
+// import config from '../config/variables';
 
 export const getGifs = async ( category:string ): Promise<Image[]> => {
-    const apikey = config.api__key;
+    // const apikey = config.api__key;
+    const apikey = 'i4UBjxaq3vW28YF5AzjwkffluodLswYX';
 
     const url = `https://api.giphy.com/v1/gifs/search?api_key=${ apikey }&q=${ category }&limit=10`;
 

@@ -1,3 +1,4 @@
+import React from "react"
 import { GifItemProps } from "../types/componentTypes"
 
 export const GifItem: React.FC<GifItemProps> = ({ image: { title, url } }) => {

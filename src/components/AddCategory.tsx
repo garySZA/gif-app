@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react";
 import { AddCategoryProps } from '../types/componentTypes';
 
 export const AddCategory:React.FC<AddCategoryProps> = ({ onNewCategory }) => {
@@ -20,7 +20,7 @@ export const AddCategory:React.FC<AddCategoryProps> = ({ onNewCategory }) => {
     }
 
     return (
-        <form onSubmit={ onSubmit }>
+        <form onSubmit={ onSubmit } aria-label="form">
             <input
                 type="text"
                 placeholder="Buscar gifs"
